@@ -1,14 +1,15 @@
 /* CSS files add styling rules to your content */
 
-
-a{
- text-decoration:none;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 2em;
 }
 
 h1 {
   font-style: italic;
   color: #373fff;
 }
+
 html{
  margin: 0px;
  height: 100%;
@@ -21,12 +22,14 @@ body {
   padding-top: 500px;
   min-height: 100%;
   width: 100%;
-  font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
-  overflow-x:hidden;
+  overflow-x:;
 }
 
-
+a{
+ text-decoration:none;
+}
 
 
 
@@ -120,70 +123,63 @@ body {
 
 }
 
-/*endnavbar*/
+/*airpodsbox*/
 
-/*miniadbar*/
-
-.miniadbar{
-  background-color:#f5f5f7;
-  overlay:hidden;
-  height:50px;
-  position:relative;
-  bottom:513px;
-    
-}
-
-.adtextbar{
+.textpx17{
   font-size:14px;
-  text-align:center;
-  position:relative;
-  top:18px;
-  right:25px;
+  opacity:0.9;
   
 }
 
-.buybuttontext{
+.buyadpodsbox{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:#f5f5f7;
+  height:50px;
+  position:relative;
+  bottom:500px;
+  
+  
+}
+
+.bluetextpx17{
   font-size:14px;
   text-decoration:none;
   color:blue;
-  position:relative;
-  left:985px;
-  bottom:12px;
-
-}
-
-.buybuttontext:hover {
-    text-decoration: underline;
-}
-
-.onetext{
-  font-size:0.6em;
-  position:relative;
-  left:974px;
-  bottom:45px;
-  
   
 }
 
+.bluetextpx17:hover{
+   text-decoration: underline;
+}
 
-
-/*endminiadbar*/
 /*ad1box*/
 
 .ad1box{
+  display:flex;
+  align-items:stretch;
+  justify-content:center;
   position:relative;
-  right:1px;
-  bottom:514px;
+  bottom:500px;
+  
   
 }
 
-.adboxtext1{
-  font-size:21px;
-  color:blue;
-  opacity:0.6;
-  position:relative;
-  left:622px;
-  bottom:538px;
+.headerad1{
+  display:flex;
+  width:100%;
+  justify-content:center;
+  font-weight:bold;
+  font-size:3vw;
+  color:black;
+  position:absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+  
 }
 
 .adboxtext1:hover{
@@ -191,59 +187,71 @@ body {
   
 }
 
-.headerad1{
-  font-size:52px;
-  color:black;
-  font-weight:;
-  position:relative;
-  bottom:500px;
-  left:300px;
-}
-
-/*endad1box*/
-/*ad2box*/
-
-.ad2box{
-  position:relative;
-  bottom:715px;
-}
-
-.headerad2{
-  font-size:52px;
-  color:black;
-  font-weight:;
-  position:relative;
-  bottom:610px;
-  left:635px;
-}
-
-.descad2{
-  font-size:26px;
-  color:black;
-  font-weight:;
-  position:relative;
-  bottom:655px;
-  left:670px;
+.adboxtext1{
+  display:flex;
+  font-size:1.5vw;
+  color:blue;
+  opacity:0.6;
+  justify-content:center;
+  position:absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
   
 }
 
+/*adbox2*/
+
+.ad2box{
+  position:relative;
+  bottom:495px;
+}
+
+.headerad2{
+ display:flex;
+  width:100%;
+  justify-content:center;
+  font-weight:bold;
+  font-size:3.1vw;
+  color:black;
+  position:absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.descad2{
+  font-size:1.6vw;
+  color:black;
+  font-weight:;
+  position:absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .adboxlearn2{
-  font-size:21px;
+  font-size:1.2vw;
   color:blue;
   opacity:0.6;
-  position:relative;
-  left:652px;
-  bottom:670px;
+  position:absolute;
+  top: 33%;
+  left: 46%;
+  transform: translate(-50%, -50%);
   
 }
 
 .adboxbuy2{
-  font-size:21px;
+ font-size:1.2vw;
   color:blue;
   opacity:0.6;
-  position:relative;
-  left:802px;
-  bottom:717px;
+  position:absolute;
+  top: 33%;
+  left: 54%;
+  transform: translate(-50%, -50%);
   
 }
 
@@ -256,51 +264,54 @@ body {
   text-decoration:underline;
 }
 
-/*endadbox2*/
-/*adbox3*/
+/*ad3box*/
 
 .ad3box{
   position:relative;
-  bottom:1025px;
+  bottom:500px;
   
 }
 
 .headerad3{
-  font-size:52px;
+  font-size:3.1vw;
   color:white;
   font-weight:;
-  position:relative;
-  bottom:610px;
-  left:635px;
+  position:absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .descad3{
-  font-size:26px;
+  font-size:1.6vw;
   color:white;
   font-weight:;
-  position:relative;
-  bottom:655px;
-  left:670px;
+  position:absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   
 }
 
 .adboxlearn3{
-  font-size:21px;
+  font-size:1.2vw;
   color:blue;
   opacity:1;
-  position:relative;
-  left:652px;
-  bottom:670px;
+  position:absolute;
+  top: 30%;
+  left: 46%;
+  transform: translate(-50%, -50%);
   
 }
 
 .adboxbuy3{
-  font-size:21px;
+  font-size:1.2vw;
   color:blue;
   opacity:1;
-  position:relative;
-  left:802px;
-  bottom:717px;
+  position:absolute;
+  top: 30%;
+  left: 54%;
+  transform: translate(-50%, -50%);
   
 }
 
@@ -312,24 +323,6 @@ body {
 .adboxbuy3:hover{
   text-decoration:underline;
 }
-/*endad3box*/
 
-/*ad4box*/
-.ad4box{
-  position:relative;
-  left:10px;
-  bottom:1330px;
-}
-/*endad4box*/
-/*ad5box*/
-.ad5box{
-  position:relative;
-  left:790px;
-  bottom:1900px;
-}
-
-
-
-
-
+/*adbox4*/
 
