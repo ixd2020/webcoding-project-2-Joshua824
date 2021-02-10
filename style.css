@@ -13,7 +13,7 @@ h1 {
 html{
  margin: 0px;
  height: 100%;
-width: 100%;
+ width: 100%;
 }
  
 body {
@@ -22,9 +22,10 @@ body {
   padding-top: 500px;
   min-height: 100%;
   width: 100%;
+  height:80%;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
-  overflow-x:;
+  overflow-x:hidden;
 }
 
 a{
@@ -324,5 +325,363 @@ a{
   text-decoration:underline;
 }
 
-/*adbox4*/
 
+
+
+
+
+/*ad4box*/
+.ad4box{
+  position:relative;
+  left:10px;
+  bottom:490px;
+}
+
+.headerad4{
+  font-size:35px;
+  width:400px;
+  color:black;
+  font-weight:bold;
+  position:relative;
+  bottom:570px;
+  left:180px;
+}
+
+.adboxbuy4{
+  font-size:20px;
+  color:blue;
+  opacity:1;
+  position:relative;
+  left:342px;
+  bottom:590px;
+  
+}
+
+.adboxbuy4:hover{
+  text-decoration:underline;
+  
+}
+
+.ad5box{
+  position:relative;
+  left:770px;
+  bottom:810px;
+  float
+}
+.headerad5{
+  color:white;
+  position:relative;
+  left:210px;
+  bottom:490px;
+  font-size:20px;
+}
+
+.adboxbuy5{
+  font-size:20px;
+  color:blue;
+  opacity:1;
+  position:relative;
+  left:422px;
+  bottom:498px;
+  
+}
+
+.adboxlearn5{
+  font-size:20px;
+  color:blue;
+  opacity:1;
+  position:relative;
+  left:272px;
+  bottom:540px;
+  width:150px;
+  
+}
+
+.adboxbuy5:hover{
+  text-decoration:underline;
+  
+}
+
+.adboxlearn5:hover{
+  text-decoration:underline;
+  
+}
+
+/*ad6box*/
+.ad6box{
+  position:relative;
+  bottom:1420px;
+  left:11px;
+}
+
+.adheader6{
+  font-size:35px;
+  font-weight:bold;
+  color:black;
+  position:relative;
+  left:300px;
+  bottom:550px;
+}
+
+.addesc6{
+  font-size:20px;
+  color:black;
+  position:relative;
+  bottom:570px;
+  left:250px;
+}
+
+
+.adboxbuy6{
+  font-size:20px;
+  color:blue;
+  opacity:1;
+  position:relative;
+  left:422px;
+  bottom:568px;
+  
+}
+
+.adboxlearn6{
+  font-size:20px;
+  color:blue;
+  opacity:1;
+  position:relative;
+  left:272px;
+  bottom:610px;
+  width:150px;
+  
+}
+
+.adboxbuy6:hover{
+  text-decoration:underline;
+  
+}
+
+.adboxlearn6:hover{
+  text-decoration:underline;
+  
+}
+
+/*ad7box*/
+.ad7box{
+  position:relative;
+  bottom:2220px;
+  left:780px;
+
+  
+}
+
+.adheader7{
+  font-size:35px;
+  font-weight:bold;
+  color:black;
+  position:relative;
+  left:260px;
+  bottom:550px;
+}
+
+.adboxbuy7{
+  font-size:20px;
+  color:blue;
+  opacity:1;
+  position:relative;
+  left:422px;
+  bottom:568px;
+  
+}
+
+.adboxlearn7{
+  font-size:20px;
+  color:blue;
+  opacity:1;
+  position:relative;
+  left:272px;
+  bottom:610px;
+  width:150px;
+  
+}
+
+.adboxbuy7:hover{
+  text-decoration:underline;
+  
+}
+
+.adboxlearn7:hover{
+  text-decoration:underline;
+  
+}
+
+/*ad8box*/
+
+.ad8box{
+  position:relative;
+  bottom:2400px;
+  left:20px;
+}
+
+.oneicon{
+  
+  position:absolute;
+  top:5%;
+  left:19%;
+}
+
+.bundle8{
+  color:black;
+  font-size:1.5vw;
+  font-weight:bold;
+  position:absolute;
+  top:14%;
+  left:14%;
+}
+
+.enjoy8{
+  color:black;
+  font-size:1.5vw;
+  font-weight:bold;
+  position:absolute;
+  top:18%;
+  left:15%;
+  
+}
+
+.adboxbuy8{
+  font-size:20px;
+  color:blue;
+  opacity:1;
+  position:absolute;
+  top:26%;
+  left:25%;
+  
+}
+
+.adboxlearn8{
+  font-size:20px;
+  color:blue;
+  opacity:1;
+  position:absolute;
+  top:26%;
+  left:15%;
+  
+}
+
+.adboxbuy8:hover{
+  text-decoration:underline;
+  
+}
+
+.adboxlearn8:hover{
+  text-decoration:underline;
+  
+}
+
+/*ad9box*/
+
+.ad9box{
+  position:relative;
+  bottom:2965px;
+  left:760px;
+}
+
+.plusicon{
+  position:absolute;
+  top:60%;
+  left:20%;
+}
+.getone{
+  font-size:20px;
+  color:white;
+  position:absolute;
+  top:70%;
+  left:15%;
+  
+}
+
+.foralimited{
+  font-size:20px;
+  color:white;
+  position:absolute;
+  top:75%;
+  left:15%;
+  
+}
+
+.anapple{
+  font-size:20px;
+  color:white;
+  position:absolute;
+  top:80%;
+  left:19%;
+  
+}
+
+.adboxbuy9{
+  font-size:20px;
+  color:white;
+  opacity:1;
+  position:absolute;
+  top:90%;
+  left:25%;
+  
+}
+
+.adboxlearn9{
+  font-size:20px;
+  color:white;
+  opacity:1;
+  position:absolute;
+  top:90%;
+  left:15%;
+  
+}
+
+.adboxbuy9:hover{
+  text-decoration:underline;
+  
+}
+
+.adboxlearn9:hover{
+  text-decoration:underline;
+  
+}
+
+.footer{
+  background-color:#D8D8D8;
+  width:70vw;
+  display:block;
+  overflow:hidden;
+  padding:60px 340px;
+  height:500px;
+  position:relative;
+  bottom:2900px;
+  
+}
+
+
+.headertitle{
+  font-size:13px;
+  font-weight:bold;
+}
+
+.footerstuff{
+  font-size:12px;
+}
+
+
+.footercontentshop{
+  float:left;
+}
+.footercontentservices{
+  float:left;
+}
+
+.footercontentstore{
+  float:left;
+}
+.footercontentbusiness{
+  float:left;
+}
+.footercontentvalues{
+  float:left;
+}

@@ -22,7 +22,7 @@ body {
   width: 100%;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
-  overflow-x:;
+  overflow-x:hidden;
 }
 
 a{
@@ -119,4 +119,526 @@ a{
   top:-3px;
   opacity:0.8;
 
+}
+.footer{
+  background-color:#D8D8D8;
+  width:70vw;
+  display:block;
+  overflow:hidden;
+  padding:60px 340px;
+  height:500px;
+}
+
+
+.headertitle{
+  font-size:13px;
+  font-weight:bold;
+}
+
+.footerstuff{
+  font-size:12px;
+}
+
+
+.footercontentshop{
+  float:left;
+}
+.footercontentservices{
+  float:left;
+}
+
+.footercontentstore{
+  float:left;
+}
+.footercontentbusiness{
+  float:left;
+}
+.footercontentvalues{
+  float:left;
+}
+
+
+.startingbox{
+  width:1000px;
+  position:relative;
+  bottom:500px;
+}
+
+.startingtext{
+  color:black;
+  font-size:2.5vw;
+  font-weight:bold;
+  position:absolute;
+  top:10%;
+  left:50%;
+}
+
+.searchbox{
+  display:flex;
+  align-items:center;
+  font-size:1.7vw;
+  color:#F8F8F8;
+  background-color:white;
+  position:absolute;
+  top:30%;
+  left:45%;
+  width:600px;
+  height:50px;
+}
+
+.supportbox2{
+  background-color:white;
+  position:relative;
+  bottom:500px;
+  height:800px;
+}
+
+.icon1{
+  position:absolute;
+  top:10%;
+  left:20%;
+}
+
+.icon2{
+  position:absolute;
+  top:10%;
+  left:30%;
+}
+
+.icon3{
+  position:absolute;
+  top:10%;
+  left:40%;
+}
+
+.icon4{
+  position:absolute;
+  top:10%;
+  left:50%;
+}
+
+.icon5{
+  position:absolute;
+  top:10%;
+  left:60%;
+}
+
+.icon6{
+  position:absolute;
+  top:10%;
+  left:70%;
+}
+
+.icon7{
+  position:absolute;
+  top:40%;
+  left:22%;
+}
+
+.icon8{
+  position:absolute;
+  top:40%;
+  left:40%;
+}
+
+.icon9{
+  position:absolute;
+  top:40%;
+  left:57%;
+}
+
+.icon10{
+  position:absolute;
+  top:40%;
+  left:72%;
+}
+
+.name1{
+  position:absolute;
+  top:25%;
+  left:22%;
+}
+
+
+.name2{
+  position:absolute;
+  top:25%;
+  left:32%;
+}
+
+.name3{
+  position:absolute;
+  top:25%;
+  left:42%;
+}
+
+.name4{
+  position:absolute;
+  top:25%;
+  left:52%;
+}
+
+.name5{
+  position:absolute;
+  top:25%;
+  left:62%;
+}
+
+.name6{
+  position:absolute;
+  top:25%;
+  left:72%;
+}
+
+.name7{
+  color:blue;
+  position:absolute;
+  top:52%;
+  left:20%;
+}
+
+.name8{
+  color:blue;
+  position:absolute;
+  top:52%;
+  left:39%;
+}
+
+.name9{
+  color:blue;
+  position:absolute;
+  top:52%;
+  left:55%;
+}
+
+.name10{
+  color:blue;
+  position:absolute;
+  top:52%;
+  left:73%;
+}
+
+.name7:hover{
+  text-decoration:underline;
+}
+
+.name8:hover{
+  text-decoration:underline;
+}
+
+.name9:hover{
+  text-decoration:underline;
+}
+
+.name10:hover{
+  text-decoration:underline;
+}
+
+.useyourtextimg{
+  position:absolute;
+  top:80%;
+  left:60%;
+}
+
+.useyourtext{
+  font-weight:bold;
+  font-size:2vw;
+  position:absolute;
+  top:80%;
+  left:20%;
+}
+
+.useyourtext2{
+  font-weight:bold;
+  font-size:1.5vw;
+  position:absolute;
+  top:85%;
+  left:20%;
+}
+
+.useyourtext3{
+  
+  font-size:1.5vw;
+  position:absolute;
+  top:92%;
+  left:20%;
+}
+
+.useyourtext4{
+  
+  font-size:1.5vw;
+  position:absolute;
+  top:95%;
+  left:20%;
+}
+.useyourtext5{
+  color:blue;
+  font-size:1,5vw;
+  position:absolute;
+  top:99%;
+  left:20%;
+}
+.useyourtext5:hover{
+  text-decoration:underline;
+}
+
+.startingbox3{
+  width:1000px;
+  position:relative;
+  bottom:400px;
+
+}
+  
+  
+  
+  .getsupport{
+    font-size:2vw;
+    color:white;
+    position:absolute;
+    top:20%;
+    left:20%;
+  }
+
+.getsupport2{
+    font-size:1.3vw;
+    color:white;
+    position:absolute;
+    top:35%;
+    left:20%;
+  }
+
+.getsupport3{
+    font-size:1.3vw;
+    color:white;
+    position:absolute;
+    top:43%;
+    left:20%;
+  }
+
+.getsupport4{
+    font-size:1.3vw;
+    color:blue;
+    position:absolute;
+    top:54%;
+    left:20%;
+  }
+
+.getsupport4:hover{
+  text-decoration:underline;
+}
+
+
+.lastdiv{
+  display:block;
+  background-color:;
+  position:relative;
+  bottom:400px;
+  height:2000px;
+}
+
+.applecareimg{
+  position:absolute;
+  height:900px;
+  left:20%;
+  top:4%;
+  
+}
+
+.applecaretext1{
+  font-weight:bold;
+  font-size:2vw;
+  position:absolute;
+  left:50%;
+  top:4%;
+}
+
+.applecaretext2{
+  font-weight:bold;
+  font-size:2vw;
+  position:absolute;
+  left:50%;
+  top:6%;
+}
+
+.applecaretext3{
+  
+  font-size:1.3vw;
+  position:absolute;
+  left:50%;
+  top:8%;
+}
+
+.applecaretext4{
+  
+  font-size:1.3vw;
+  position:absolute;
+  left:50%;
+  top:9%;
+}
+
+.applecaretext5{
+ 
+  font-size:1.3vw;
+  position:absolute;
+  left:50%;
+  top:10%;
+}
+
+.applecaretext6{
+ color:blue;
+  font-size:1.3vw;
+  position:absolute;
+  left:50%;
+  top:12%;
+}
+
+.warrantimg{
+  color:blue;
+  font-size:1.3vw;
+  position:absolute;
+  left:33%;
+  top:20%;
+}
+
+.applecaretext7{
+  font-weight:bold;
+  font-size:2vw;
+  position:absolute;
+  left:34%;
+  top:33%;
+}
+
+.applecaretext8{
+ 
+  font-size:1.1vw;
+  position:absolute;
+  left:20%;
+  top:37%;
+}
+
+.applecaretext9{
+ 
+  font-size:1.1vw;
+  position:absolute;
+  left:35%;
+  top:39%;
+}
+
+.applecaretext10{
+  position:absolute;
+  left:35%;
+  top:47%;
+  font-size:1.5vw;
+  font-weight:bold;
+  
+  
+}
+
+.applecaretext11{
+  position:absolute;
+  left:20%;
+  top:50%;
+  font-size:1.1vw;
+  
+  
+  
+}
+
+.applecaretext12{
+  position:absolute;
+  left:20%;
+  top:51%;
+  font-size:1.1vw;
+  
+  
+  
+}
+
+
+
+
+.applecaretext13{
+  position:absolute;
+  left:21%;
+  top:52%;
+  font-size:1.1vw;
+  
+  
+  
+}
+
+.applecaretext14{
+  position:absolute;
+  left:22%;
+  top:53%;
+  font-size:1.1vw;
+  
+  
+  
+}
+
+.applecaretext15{
+  position:absolute;
+  left:21%;
+  top:55%;
+  font-size:1.1vw;
+
+  
+  
+}
+
+.applecaretext16{
+  position:absolute;
+  left:20%;
+  top:56%;
+  font-size:1.1vw;
+
+  
+  
+}
+
+.appstore2{
+  position:absolute;
+  top:70%;
+  left:10%;
+}
+
+
+.applecaretext17{
+  font-size:2vw;
+  font-weight:bold;
+  position:absolute;
+  top:70%;
+  left:50%;
+}
+
+.applecaretext18{
+  font-size:1.5vw;
+  color:blue;
+  position:absolute;
+  top:75%;
+  left:60%;
+}
+
+.applecaretext18:hover{
+  text-decoration:underline;
+}
+
+.servicetext{
+  font-size:2vw;
+  font-weight:bold;
+  position:absolute;
+  top:95%;
+  left:15%;
+}
+
+.applecaretext19{
+  position:absolute;
+  top:98%;
+  left:12%;
+  color:blue;
+}
+
+.applecaretext19:hover{
+  text-decoration:underline;
 }

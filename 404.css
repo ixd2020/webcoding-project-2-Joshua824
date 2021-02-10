@@ -22,7 +22,7 @@ body {
   width: 100%;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
-  overflow-x:;
+  overflow-x:hidden;
 }
 
 a{
@@ -135,7 +135,7 @@ a{
 }
 
 .cantbetext{
-   position:relative;
+  position:relative;
   bottom:390px;
   font-size:3vw;
   font-weight:bold;
@@ -145,26 +145,93 @@ a{
   
 }
 
+
+.box1{
+  position:relative;
+  bottom:320px;
+  left:550px;
+  length:300px;
+  
+}
 .searchbar{
   width:400px;
   height:50px;
   display:flex;
   border-style: solid;
-  position:relative;
-  left:37%;
-  bottom:314px;
+  position:absolute;
+  bottom:350px;
+  left:25%;
   
+}
+
+
+@media screen and (min-width:500px){
+ .searchbar{
+  width:400px;
+  height:50px;
+  display:flex;
+  border-style: solid;
+  position:absolute;
+  bottom:350px;
+  left:37%;
+  
+}
+
 }
 
 .searchtext{
-  position:absolute;
-  left:2%;
-  bottom:5%;
-}
-
-.searchicon2{
-  width:20px;
-  height:20px;
-  position:absolute;
+  display:flex;
+  align-items:center;
   
 }
+
+.searchglass{
+  display:flex;
+  align-items;center;
+  background:#F0F0F0;
+}
+
+
+
+
+
+.footer{
+  background-color:#D8D8D8;
+  width:70vw;
+  display:block;
+  overflow:hidden;
+  padding:60px 340px;
+  height:500px;
+}
+
+
+.headertitle{
+  font-size:13px;
+  font-weight:bold;
+}
+
+.footerstuff{
+  font-size:12px;
+}
+
+
+.footercontentshop{
+  float:left;
+}
+.footercontentservices{
+  float:left;
+}
+
+.footercontentstore{
+  float:left;
+}
+.footercontentbusiness{
+  float:left;
+}
+.footercontentvalues{
+  float:left;
+}
+
+
+
+.
